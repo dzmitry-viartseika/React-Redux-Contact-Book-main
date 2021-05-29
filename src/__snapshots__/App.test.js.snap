@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly App component 1`] = `
+<div
+  className="App"
+>
+  <ToastContainer
+    autoClose={5000}
+    closeButton={[Function]}
+    closeOnClick={true}
+    draggable={true}
+    draggableDirection="x"
+    draggablePercent={80}
+    hideProgressBar={false}
+    newestOnTop={false}
+    pauseOnFocusLoss={true}
+    pauseOnHover={true}
+    position="top-right"
+    role="alert"
+    rtl={false}
+    transition={[Function]}
+  />
+  <Navbar />
+  <Route
+    component={[Function]}
+    exact={true}
+    path="/"
+  />
+  <Route
+    component={[Function]}
+    exact={true}
+    path="/add"
+  />
+  <Route
+    component={[Function]}
+    exact={true}
+    path="/edit/:id"
+  />
+</div>
+`;
+
+exports[`unit tests for App component 1`] = `
+<div
+  className="App"
+>
+  <ToastContainer
+    autoClose={5000}
+    closeButton={[Function]}
+    closeOnClick={true}
+    draggable={true}
+    draggableDirection="x"
+    draggablePercent={80}
+    hideProgressBar={false}
+    newestOnTop={false}
+    pauseOnFocusLoss={true}
+    pauseOnHover={true}
+    position="top-right"
+    role="alert"
+    rtl={false}
+    transition={[Function]}
+  />
+  <Navbar />
+  <Route
+    component={[Function]}
+    exact={true}
+    path="/"
+  />
+  <Route
+    component={[Function]}
+    exact={true}
+    path="/add"
+  />
+  <Route
+    component={[Function]}
+    exact={true}
+    path="/edit/:id"
+  />
+</div>
+`;
